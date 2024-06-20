@@ -1,5 +1,5 @@
 ## E-TASWeeT-blockhain-voting
-![alt text](next-js-front-end\assets\show1.png)
+![alt text](./next-js-front-end/assets/show1.png)
 ## Project Setup Guide
 
 This guide will walk you through setting up and running the project, including deploying the smart contract and starting the front-end application.
