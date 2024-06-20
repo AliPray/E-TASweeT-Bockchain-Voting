@@ -1,0 +1,25 @@
+// run tests and update gas reporter txt file
+yarn hardhat test
+
+//run coverage to see how much lines are covered in test
+yarn hardhat coverage
+
+deploy smart contract:
+yarn hardhat compile 
+yarn hardhat run .\scripts\deploy.js --network sepolia
+
+verify smart contract: 
+yarn hardhat verify --network sepolia
+
+
+
+//voter structure:
+
+uint voterId;
+voterfirstName;
+voterLastName;
+// there is no need to set a password for voter cause the metamask will handle the authentification
+// on his unique wallet address
+voterAddress;  //excluded cause it will be fetched from metamask account
+voterState;
+
